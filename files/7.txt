@@ -1,0 +1,77 @@
+* 确定字符串长度
+
+* int strlen(string str)
+
+* 比较两个字符串
+
+* 1、strcmp函数对两个字符串进行二进制安全的比较，并区分大小写
+
+* int strcmp(string str1,string str2)
+
+* 2、以不区分大小写的方式比较两个字符串
+
+* int strcasecmp(string str1,string str2)
+
+* 3、求两个字符串相同部分
+
+* int strspn(string str1,string str2)
+
+* 4、求两个字符串的不同部分
+
+* int strcspn(string str1,string str2)
+
+* 处理字符串大小写
+
+* 1、将字符串全部转换为小写
+
+* string strtolower(string str)
+
+* 2、将字符串全部转化为大写
+
+* string strtoupper(string str)
+
+* 3、将字符串第一个字符大写
+
+* string ucfirst(string str)
+
+* 4、将字符串中的每个单词变成大写
+
+* string ucword(string str)
+
+* 字符串与HTML相互转换
+
+* 1、将换行符转换为HTML终止标记
+
+* string bl2br(string str)
+
+* 2、将特殊字符转换wieldHTML等价形式
+
+* string htmlentities(string str[,int quote_style[,int charset]])
+
+* 3、使用特殊的HTML字符用于其他目的
+
+* string htmlspecialchars(string str[,int quote_style[,string charset]])
+
+* 4、将文本转换为HTML等价形式
+
+* array get_html_translaction_table(int table[,int quote_style])
+
+* 5、创建一个自定义的转换清单
+
+* string strtr(string str,array replacements)
+
+* 6、将HTML转换为纯文本
+
+* string strip_tags(string str[,string allowable_tags])
+
+* 正则表达式函数的替代函数
+
+* 1、strtok函数根据预定义的字符串列表来解析字符串
+
+* string strtok(string str,string tonens)
+
+* 2、根据预定义的定界符分析字符串
+
+* array explode(string separator,string str[,int limit])
+
+* 3、将数组转换为字符串

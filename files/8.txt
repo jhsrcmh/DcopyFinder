@@ -1,0 +1,45 @@
+* 10、用另一个字符串替换一个字符串的一部分
+
+* string substr_replace(string str,string replacement,int start[,int length])
+
+* 填充和剔除字符串
+
+* 1、从字符串开始出裁剪字符
+
+* string ltrim(string str[,string charliset])
+
+* 2、从字符串结尾裁剪字符
+
+* string rtrim(string str[,string charliset])
+
+* 3、从字符串两端裁剪字符
+
+* string trim(string str[,string charliset])
+
+* 4、填充字符串
+出的 文本分割方法为以字符快（300-400 个字符 ）作为信息提取单位，其实现过
+程如下： 
+1)设定 300 为字符读取的临界值，判断读取的字符个数，如果读取的字符个
+数到达 300，则执行第 2 步；如果出现段的结束标志且字符读取个数小于 300，则
+跳转至第 3 步；否则继续读取直至符合这两个条件之一； 
+2)如果读取字符到达临界值 300 时，判断当前读取的字符是否为该句的结尾
+部分，如果是则读取停止继续下一步，否则继续读取直至将该句整句读入为止； 
+3)将 读取出来的文本块以句子为边界再次 分割为字符串集合构造哈希匹配机
+转入字符串匹配阶段； 
+4)判断要读取的文档是否到达末尾，否则跳至第 1 步重复操作直至文档结束。
+
+处理完成的字符串集合中有中文字符串和英语字符串，然而由于中英文字符编码格式的差异性，通常情况下中文
+
+* string str_pad(string str,int length[,string pad_string[,int pad_type]])
+
+* 字符和单词计数
+
+* 1、字符串中字符计数
+
+* mixed count_chars(string str[,mode])
+
+* 2、字符串中单词总数计数
+
+* mixed str_word_count(string str[,int format])
+
+*/
