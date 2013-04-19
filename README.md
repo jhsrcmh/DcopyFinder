@@ -1,5 +1,3 @@
-README      README.txt,v 1 2013/4/20
-------
 
 APPLICATION REQUIREMENT
 =======================
