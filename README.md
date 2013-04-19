@@ -32,7 +32,7 @@ on linux set to 0775
 WHAT IS MOST IMPORTANT?
 ==============
 
-Ok, twins modified from mkhoster(http://sourceforge.net/projects/plagiarismcheck/), but not satisified 
+Ok, twins modified it from mkhoster(http://sourceforge.net/projects/plagiarismcheck/), but not satisified 
 with the online check with google check, ok, helped by C language, I make the c as the underlying layer
 (Algorithm layer) and viw layer( php). with the origin hope, I want to do it with JRuby and Java, while
 the core thought is most important for as. Beacuse of PubMed, the next work should modified by you.
