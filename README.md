@@ -38,8 +38,14 @@ The Most Important
 Ok, twins modified it from mkhoster(http://sourceforge.net/projects/plagiarismcheck/), but not satisified 
 with the online check with google check, ok, helped by C language, I make the c as the underlying layer
 (Algorithm layer) and viw layer( php). with the origin hope, I want to do it with JRuby and Java, while
-the core thought is most important for as. Beacuse of PubMed, the next work should modified by you.
+the core thought is most important for us. Beacuse of PubMed, the next work should modified by you.
 Thanks ~
+
+What Is Next?
+==============
+. Add document and build the database
+. reconstruct the program and modify it
+. Do it together
 
 Good luck and have fun!
 
