@@ -1,6 +1,6 @@
 What Is DcopyFinder
 =======================
-DcopyFinder is the program modified by twins in HIT(Junior) which can release teacher's
+DcopyFinder is the program modified by twins in HIT(Junior) which can releases teacher's
 work on student's Plagiarise. Well, It is not same as moddle-moss(also developed by HIT CMS), and JavaMoss
 (developed by twins myself),It is coded all Indenpendently, and run without other's assistant( like moss).
 
