@@ -1,5 +1,10 @@
+What Is DcopyFinder
+=======================
+DcopyFinder is the program modified by twins in HIT(Junior) which can release teacher's
+work on student's Plagiarise. Well, It is not same as moddle-moss(also developed by HIT CMS), and JavaMoss
+(developed by twins myself),It is coded all Indenpendently, and run without other's assistant( like moss).
 
-APPLICATION REQUIREMENT
+Application Requriement
 =======================
 This application is written to platform independent, this application use:
 
@@ -12,7 +17,7 @@ This application is written to platform independent, this application use:
 4)For file upload we need to Turn off mod_security filtering on server level or application level using .htaccess 
 sample of .htaccess is on root application dir.
 
-QUICK INSTALL
+Quick Install
 =============
 
 For the impatient, here is a basic outline of the 
@@ -27,7 +32,7 @@ on linux set to 0775
 
 3) go to index.php and enjoy our application
 
-WHAT IS MOST IMPORTANT?
+The Most Important
 ==============
 
 Ok, twins modified it from mkhoster(http://sourceforge.net/projects/plagiarismcheck/), but not satisified 
