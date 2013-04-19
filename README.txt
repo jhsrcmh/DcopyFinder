@@ -1,4 +1,4 @@
-README      README.txt,v 1 2008/12/22
+README      README.txt,v 1 2013/4/20
 ------
 
 APPLICATION REQUIREMENT
@@ -29,9 +29,15 @@ on linux set to 0775
 
 3) go to index.php and enjoy our application
 
+WHAT IS MOST IMPORTANT?
+==============
+
+Ok, twins modified from mkhoster(http://sourceforge.net/projects/plagiarismcheck/), but not satisified 
+with the online check with google check, ok, helped by C language, I make the c as the underlying layer
+(Algorithm layer) and viw layer( php). with the origin hope, I want to do it with JRuby and Java, while
+the core thought is most important for as. Beacuse of PubMed, the next work should modified by you.
+Thanks ~
+
 Good luck and have fun!
-For any comment or feed back send to us :
-admin@mkhoster.com
-+2 012 32 96 001
-Mohamed ali, Lead Developer and MKhoster general manager
+
 
